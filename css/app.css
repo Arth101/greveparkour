@@ -1,0 +1,178 @@
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+nav {
+  border-bottom: 2px solid #e53935;
+}
+
+.info-card {
+  margin-top: 30px;
+}
+
+li > a.active {
+      background-color: rgba(0,0,0,0.1);
+}
+
+.side-nav li {
+    float: none;
+    padding: 0 0px;
+}
+
+#index-banner {
+  border-bottom: 2px solid #e53935;
+}
+
+#footer-banner {
+  border-top: 2px solid #e53935;
+}
+
+.page-footer {
+  border-top: 2px solid #fff;
+}
+
+h1.header span.greve {
+  font-weight: bold;
+  font-size: 1.5em;
+  -webkit-text-stroke: 1.2px #e53935;
+}
+
+h1.header span.parkour {
+  font-weight: bold;
+  font-size: 1.5em;
+  -webkit-text-stroke: 1.2px #fff;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.facebook-color {
+  color: #8b9dc3;
+}
+
+.button-collapse {
+  color: #e53935;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*.gp-logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Anton', sans-serif;
+}*/
+
+/*.gp-greve {
+  color: white;
+}
+
+.gp-parkour {
+  color: red;
+}*/
+
+#index-banner {
+  min-height: 500px;
+}
+
+#container {
+  position: relative;
+  overflow: hidden;
+}
+
+#container .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fb-links {
+  color: white;
+}
+
+.fb-links:hover {
+  opacity: 0.8;
+}
+
+#top-vid {
+  width: 100%;
+  height: auto;
+}
+
+.text-shadow {
+	    text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+@media only screen and (max-width : 900px) {
+  #top-vid {
+    width: auto;
+    height: 100%; } }
+
+@media only screen and (min-width : 600px) {
+  .show-on-small-only, .show-on-small-and-down {
+    display: none !important; } }
+
+@media only screen and (max-width : 600px) {
+  .gp-logo {
+    font-size: 3rem !important; }
+  .header-img {
+  	-webkit-filter: blur(6px);
+  	filter: blur(6px);
+  	-webkit-transition : -webkit-filter 1000ms linear
+  	}
+  #index-banner {
+    min-height: 550px;
+  	}
+  .contact-mail {
+  	font-size: 1.5rem;
+  	} }
